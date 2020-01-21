@@ -112,7 +112,6 @@ excluded = (
     # jre_emul. See the discussion here for porting considerations:
     # https://groups.google.com/forum/#!topic/j2objc-discuss/Rx7ioYfOaIU
     './analysis/common/src/java/org/apache/lucene/analysis/hunspell/ISO8859_14Decoder.java',  # nopep8
-    './analysis/common/src/java/org/apache/lucene/analysis/th/*.java',
     './analysis/common/src/java/org/apache/lucene/analysis/util/CharArrayIterator.java',  # nopep8
     './analysis/common/src/java/org/apache/lucene/analysis/util/SegmentingTokenizerBase.java',  # nopep8
 
