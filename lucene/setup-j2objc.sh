@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 # TODO: Parameterize, error checking, temp file, etc.
-VERSION=1.0.2
+VERSION=2.5
 FILE=j2objc-$VERSION.zip
 URL=https://github.com/google/j2objc/releases/download/$VERSION/$FILE
 #URL=https://github.com/lukhnos/j2objc/releases/download/$VERSION/$FILE
