@@ -107,15 +107,6 @@ excluded = (
     # No need to translate j2objc annotations to Objective-C.
     './core/src/java/org/lukhnos/portmobile/j2objc/*',
 
-    # Currently skipped; these currently relies on JDK 7's BreakIterator,
-    # which, although supported on Android, is not implemented by j2objc's
-    # jre_emul. See the discussion here for porting considerations:
-    # https://groups.google.com/forum/#!topic/j2objc-discuss/Rx7ioYfOaIU
-    './analysis/common/src/java/org/apache/lucene/analysis/hunspell/ISO8859_14Decoder.java',  # nopep8
-    './analysis/common/src/java/org/apache/lucene/analysis/th/*.java',
-    './analysis/common/src/java/org/apache/lucene/analysis/util/CharArrayIterator.java',  # nopep8
-    './analysis/common/src/java/org/apache/lucene/analysis/util/SegmentingTokenizerBase.java',  # nopep8
-
     # Requires antlr.
     './expressions/src/java/org/apache/lucene/expressions/js/*.java',
 
